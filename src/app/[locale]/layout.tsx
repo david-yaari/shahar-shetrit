@@ -1,9 +1,11 @@
-import {getTranslations} from 'next-intl/server';
+import {getTranslations, unstable_setRequestLocale} from 'next-intl/server';
+import { useTranslations } from 'next-intl';
 import {ReactNode} from 'react';
 import Footer from '@/components/Footer';
 import Navigation from '@/components/Navigation';
 import {locales} from '@/config';
 import '../../app/globals.css';
+
 
 type Props = {
   children: ReactNode;
@@ -26,6 +28,9 @@ export async function generateMetadata({
 }
 
 export default function LocaleLayout({children, params: {locale}}: Props) {
+  unstable_setRequestLocale(locale);
+  const t = useTranslations('IndexPage');
+
   return (
     <html lang={locale}>
       <body>
