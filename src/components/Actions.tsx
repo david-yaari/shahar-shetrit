@@ -10,7 +10,7 @@ const Actions = () => {
           <h2 className='bold-40 lg:bold-64 xl:max-w-[320px]'>Contact us!</h2>
           <p className='regular-16 text-gray-10'>Talk with an expert now.</p>
           <div className='flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row'>
-            <NavigationLink href='/contact_form'>
+            <NavigationLink className='md:block' href='/contact_form'>
               <Button
                 type='button'
                 title='Fill in the form'
@@ -19,7 +19,7 @@ const Actions = () => {
                 full
               />
             </NavigationLink>
-            <NavigationLink href='/contact_form'>
+            <NavigationLink className='md:block' href='/contact_form'>
               <Button
                 type='button'
                 title='Call us'
