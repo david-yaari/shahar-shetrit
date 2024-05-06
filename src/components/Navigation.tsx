@@ -1,6 +1,7 @@
 import {useTranslations} from 'next-intl';
 import LocaleSwitcher from './LocaleSwitcher';
 import NavigationLink from './NavigationLink';
+import Image from 'next/image';
 
 export default function Navigation() {
   const t = useTranslations('Navigation');
