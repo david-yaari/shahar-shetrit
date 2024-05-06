@@ -18,7 +18,7 @@ export default function NavigationLink<Pathname extends AppPathnames>({
     <Link
       aria-current={isActive ? 'page' : undefined}
       className={clsx(
-        'hidden h-full lg:flex  px-2 py-3 transition-colors regular-16 cursor-pointer',
+        'hidden sm:inline md:inline h-full lg:flex  px-2 py-3 transition-colors regular-16 cursor-pointer',
         isActive ? 'text-black' : 'text-gray-400 hover:font-bold'
       )}
       href={href}
