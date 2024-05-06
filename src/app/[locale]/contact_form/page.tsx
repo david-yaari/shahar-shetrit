@@ -3,7 +3,7 @@ import Form from '@/components/ContactForm';
 
 const page = () => {
   return (
-    <main>
+    <main className='w-2/3 mx-auto '>
       <ContactForm />
     </main>
   );

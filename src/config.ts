@@ -12,22 +12,22 @@ export const pathnames = {
     '/': '/',
     '/how_we_work': {
         en: '/how_we_work',
-        fr: '/comment_on_travaille',
-        il: '/נתיבים'
+        fr: '/how_we_work',
+        il: '/how_we_work'
     },
     '/#services': {
         en: '/services',
         fr: '/services',
-        il: '/שירותים'
+        il: '/services'
     }, '/contact_form': {
         en: '/contact_form',
-        fr: '/formulaire',
-        il: '/שירותים'
+        fr: '/contact_form',
+        il: '/contact_form'
     },
     '/about_us': {
         en: '/about_us',
-        fr: '/a_propos',
-        il: '/אודות'
+        fr: '/about_us',
+        il: '/about_us'
     },
 } satisfies Pathnames<typeof locales>;
 
