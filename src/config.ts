@@ -15,9 +15,13 @@ export const pathnames = {
         fr: '/comment_on_travaille',
         il: '/נתיבים'
     },
-    '/services': {
+    '/#services': {
         en: '/services',
         fr: '/services',
+        il: '/שירותים'
+    }, '/contact_form': {
+        en: '/contact_form',
+        fr: '/formulaire',
         il: '/שירותים'
     },
     '/about_us': {

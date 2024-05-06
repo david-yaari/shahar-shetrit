@@ -10,7 +10,10 @@ export default function Navigation() {
       <div className='flex'>
         <NavigationLink href='/'>{t('home')}</NavigationLink>
         <NavigationLink href='/how_we_work'>{t('how_we_work')}</NavigationLink>
-        <NavigationLink href='/services'>{t('services')}</NavigationLink>
+        <NavigationLink href='/#services'>{t('services')}</NavigationLink>
+        <NavigationLink href='/contact_form'>
+          {t('contact_form')}
+        </NavigationLink>
         <NavigationLink href='/about_us'>{t('about_us')}</NavigationLink>
       </div>
       <LocaleSwitcher />

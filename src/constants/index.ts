@@ -1,10 +1,11 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  {href: '/', key: 'home', label: 'Home'},
-  {href: '/', key: 'how_hilink_work', label: 'How Hilink Work?'},
-  {href: '/', key: 'services', label: 'Services'},
-  {href: '/', key: 'pricing ', label: 'Pricing '},
-  {href: '/', key: 'contact_us', label: 'Contact Us'}
+  { href: '/', key: 'home', label: 'Home' },
+  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
+  { href: '/', key: 'services', label: 'Services' },
+  { href: '/', key: 'contact-form', label: 'Contact Form' },
+  { href: '/', key: 'pricing ', label: 'Pricing ' },
+  { href: '/', key: 'contact_us', label: 'Contact Us' }
 ];
 
 // CAMP SECTION
@@ -69,8 +70,8 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    {label: 'Admin Officer', value: '123-456-7890'},
-    {label: 'Email Officer', value: 'shahar.shetrit@xyz.com'}
+    { label: 'Admin Officer', value: '123-456-7890' },
+    { label: 'Email Officer', value: 'shahar.shetrit@xyz.com' }
   ]
 };
 
