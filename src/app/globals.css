@@ -126,7 +126,7 @@ body {
 
   /* Hero */
   .hero-map {
-    @apply absolute left-10 top-0 h-[600px] xs:h-[550px] md:h-[500px] w-full bg-hero bg-cover bg-center md:-right-28 xl:-top-10;
+    @apply absolute left-10 top-0 h-[600px] xs:h-[550px] md:h-[500px] lg:h-[600px] w-full bg-hero bg-cover bg-center md:-right-28 xl:-top-10;
     background-position: 40% 0; /* Adjust the percentage as needed */
 
     &:after {
